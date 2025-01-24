@@ -7,10 +7,6 @@
 }
 
 /* shared style */
-section {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
 .btn-container {
     text-align: center;
@@ -232,18 +228,59 @@ section {
     opacity: 0.7;
     margin-bottom: 20px;
 }
+.food_info .social_logo {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
 
-@media screen and (max-width: 576px) {
-    .card {
-        /* margin-left: 50px; */
-    }
+/* footer style */
+#footer{
+    background-image: url(../assets/social-bg.png);
+    background: linear-gradient(240deg, rgb(230, 226, 226) 2.884%, rgba(166, 153, 153, 0) 101.034%),  url(../assets/social-bg.png);
+    background-position: absolute;
+    margin-top: 100px;
+    height: 671px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    .card_container {
-        flex-direction: column;
-    }
+.footer_info {
+    width: 830px;
+    height: 398px;
+    margin: 136px 551px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    .btn-container2 {
-        text-align: left;
-        margin-left: 10px;
-    }
+.footer_info .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer_info .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.footer_info .social_logo {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
 }
