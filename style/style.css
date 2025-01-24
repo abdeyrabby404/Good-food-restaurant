@@ -7,6 +7,11 @@
 }
 
 /* shared style */
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .btn-container {
     text-align: center;
 }
@@ -172,4 +177,73 @@
     line-height: 80px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+/* about us style */
+#about_us {
+    height: 671px;
+}
+
+.about_container {
+    display: flex;
+}
+
+.food_info {
+    width: 830px;
+    height: 398px;
+    margin: 136px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.food_info .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.food_info .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.follow {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    .card {
+        /* margin-left: 50px; */
+    }
+
+    .card_container {
+        flex-direction: column;
+    }
+
+    .btn-container2 {
+        text-align: left;
+        margin-left: 10px;
+    }
 }
